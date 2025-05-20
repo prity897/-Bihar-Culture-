@@ -1,0 +1,154 @@
+bbody {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0; 
+}
+
+header.main-header {
+  background-color: #f8746a;
+  color: white;
+  padding: 25px 30px; 
+  text-align: center;
+  border-radius: 0 0 10px 10px; 
+  box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+  margin: 0 auto 60px auto; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header.main-header h1 {
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+}
+
+header.main-header p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 3px solid #f58080;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.quiz-section {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+}
+
+.question-box {
+  background: white;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.question-box:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.question-box p {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.question-box label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #34495e;
+}
+
+.question-box input[type="radio"] {
+  margin-right: 12px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.quiz-section button {
+  display: block;
+  background-color: #f58787;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 6px 12px rgba(52, 152, 219, 0.4);
+}
+
+.quiz-section button:hover {
+  background-color: #f58787;
+  box-shadow: 0 8px 18px #cf6262;
+}
+
+.feedback-box {
+  background: white;
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+  padding: 30px 40px;
+  border-radius: 14px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+}
+
+.feedback-box label {
+  display: block;
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #2c3e50;
+}
+
+.feedback-box input[type="text"],
+.feedback-box input[type="email"],
+.feedback-box textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1.8px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  resize: vertical;
+}
+
+.feedback-box input[type="text"]:focus,
+.feedback-box input[type="email"]:focus,
+.feedback-box textarea:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 8px #3498db;
+}
+
+.feedback-box button {
+  display: block;
+  margin: 25px auto 0; 
+  padding: 14px 38px;
+  background-color: #ec7070;
+  color: white;
+  font-size: 1.2rem;
+  border: rgb(247, 137, 137);
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(245, 160, 154, 0.4);
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.feedback-box button:hover {
+  background-color: #f58787;
+  box-shadow: 0 8px 20px rgba(138, 31, 102, 0.6);
+}
