@@ -1,0 +1,80 @@
+body {
+    font-family: 'Baloo Bhaina 2', cursive;
+    background: #f0fff2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-section {
+    padding: 60px 20px;
+    background-image: linear-gradient(to right, #e2fbe4, #f6fff7);
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2b7a3d;
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+  
+  p {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #cde5cc;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #f9fffb;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #2b7a3d;
+    background-color: #ffffff;
+    outline: none;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    background-color: #2b7a3d;
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #246232;
+  }
+  
