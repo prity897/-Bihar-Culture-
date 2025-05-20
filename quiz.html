@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz and Feedback Page</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+
+  <header class="main-header">
+  <h1>Welcome to Bihar Culture Quiz & Feedback</h1>
+  <p>Test your knowledge and share your experience!</p>
+</header>
+
+  <h2>Quiz Section</h2>
+  <div class="quiz-section">
+
+    <div class="question-box">
+      <p><strong>1. Bihar ki kaun si lok sangeet pramukh hai?</strong></p>
+      <label><input type="radio" name="q1"> Bhangra</label><br>
+      <label><input type="radio" name="q1"> Garba</label><br>
+      <label><input type="radio" name="q1"> Bidesia</label><br>
+      <label><input type="radio" name="q1"> Lavani</label><br>
+    </div>
+
+    <div class="question-box">
+      <p><strong>2. Madhubani painting kis rajya ki kala hai?</strong></p>
+      <label><input type="radio" name="q2"> Punjab</label><br>
+      <label><input type="radio" name="q2"> Bihar</label><br>
+      <label><input type="radio" name="q2"> Rajasthan</label><br>
+      <label><input type="radio" name="q2"> Gujarat</label><br>
+    </div>
+
+    <div class="question-box">
+      <p><strong>3. Bihar ka lok nritya kaun sa hai?</strong></p>
+      <label><input type="radio" name="q3"> Kathakali</label><br>
+      <label><input type="radio" name="q3"> Jat-Jatin</label><br>
+      <label><input type="radio" name="q3"> Bharatnatyam</label><br>
+      <label><input type="radio" name="q3"> Bihu</label><br>
+    </div>
+
+    <div class="question-box">
+      <p><strong>4. Bihar ke kis sahar me Nalanda Vishwavidyalaya sthit hai?</strong></p>
+      <label><input type="radio" name="q4"> Patna</label><br>
+      <label><input type="radio" name="q4"> Rajgir</label><br>
+      <label><input type="radio" name="q4"> Nalanda</label><br>
+      <label><input type="radio" name="q4"> Gaya</label><br>
+    </div>
+
+    <div class="question-box">
+      <p><strong>5. Bihar ka pramukh tyohar kaun sa hai?</strong></p>
+      <label><input type="radio" name="q5"> Holi</label><br>
+      <label><input type="radio" name="q5"> Diwali</label><br>
+      <label><input type="radio" name="q5"> Chhath Puja</label><br>
+      <label><input type="radio" name="q5"> Pongal</label><br>
+    </div>
+
+    <button type="button" onclick="alert('Thanks for attempting the quiz!')">Submit Quiz</button>
+  </div>
+
+  <h2>Feedback Section</h2>
+  <div class="feedback-box">
+    <form onsubmit="alert('Thank you for your feedback!'); return false;">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="experience">How was your experience?</label><br>
+      <textarea id="experience" name="experience" rows="4" required></textarea><br><br>
+
+      <label for="suggestions">Any suggestions for us?</label><br>
+      <textarea id="suggestions" name="suggestions" rows="4"></textarea><br><br>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+
+</body>
+</html>
